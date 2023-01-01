@@ -32,5 +32,5 @@ if st.button("Send"):
     st.write("You: " + user_input)
     # display clone response
     response = index.query(user_input)
-    st.write("Louis: " + response)
+    st.write("Krishnamurti: " + response)
 
