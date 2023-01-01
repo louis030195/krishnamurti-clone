@@ -25,7 +25,7 @@ if not os.path.exists(index_path):
 index = GPTSimpleVectorIndex.load_from_disk(index_path)
 
 # input box
-user_input = st.text_input("You", "Hello")
+user_input = st.text_input("You", "How can I reach maximum happiness this year?")
 # button
 if st.button("Send"):
     # display user input
